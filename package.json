@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "yarn build && node ./dist/countDupl.js",
+    "watch": "yarn tsc --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
