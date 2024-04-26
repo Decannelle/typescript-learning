@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "yarn tsc",
-    "test": "yarn build && node ./dist/uniqueNumber.js",
+    "test": "yarn build && node ./dist/primesInNumbers.js",
     "watch": "yarn tsc --watch"
   },
   "license": "MIT",
