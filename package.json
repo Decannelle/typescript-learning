@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "yarn tsc",
-    "test": "yarn build && node ./dist/perimeterOfSquares.js",
+    "test": "yarn build && node ./dist/egyptianFractions.js",
     "watch": "yarn tsc --watch"
   },
   "license": "MIT",
